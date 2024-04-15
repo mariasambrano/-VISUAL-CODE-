@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div id="Formulario">
+        <h1>  LOGIN</h1>
+        <hr>
+        <form action="" name="formulario" method="post">
+            <!--caja de texto-->
+            <input type="text" placeholder="Nombre" / required>
+            <br>
+            <input type="email" name="email" id="" placeholder="Email" required>
+            <br>
+            <input type="password" placeholder="password" required>
+            <br> 
+            
+            <input type="tipo de usuario" name="opcion" id="">
+            <label for="Selecciona"></label>
+            <input type="submit" value="iniciar sesion" required>
+            
+</body>
+</html>
