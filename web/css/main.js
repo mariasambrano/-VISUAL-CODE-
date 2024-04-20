@@ -1,16 +1,27 @@
-function buscar(){
-    var letra = document.getElementById ("caja").value;
-    alert("dijitaste: "+" letra")
-    switch(letra){
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u': 
-        alert("la letra: "+letra+" es una vocal");
-        break;
-        default:
-        alert("la letra: "+letra+" es una consonate")
-        break;    
-    }
+body{
+    background-color: aquamarine;
+}
+.caja{
+    margin-top: 120px;
+    width: 100%;
+    height: 400px;
+    align-content: center;
+    background-color: bisque;
+    border-color: black;
+    border: 2px solid;
+    
+}
+.texto{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+
+}
+.cajatexto{
+    width: 100%;
+    height: 30px;
+    padding: auto;
+    background: transparent;
+    border: 1px solid #fff;
 }
